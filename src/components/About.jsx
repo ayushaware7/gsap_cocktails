@@ -1,5 +1,6 @@
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
+import { SplitText } from 'gsap/all'
 import React from 'react'
 
 const About = () => {
@@ -58,16 +59,10 @@ const About = () => {
                 <div className='noisy'/>
                 <img src="/images/abt1.png" alt="grid img 1" />   
             </div>
-        </div>
-
-        <div className='top-grid'>
-            <div className='md:col-span-6'>
+             <div className='md:col-span-6'>
                 <div className='noisy'/>
                     <img src="/images/abt2.png" alt="grid img 1" />
             </div>
-        </div>
-
-        <div className='top-grid'>
             <div className='md:col-span-3'>
                 <div className='noisy' />
                 <img src="/images/abt5.png" alt="grid img 1" />
@@ -81,7 +76,7 @@ const About = () => {
             </div>
             <div className='md:col-span-4'>
                 <div className='noisy'/>
-                <img src="/images/abt4.png" alt="grid-img-3" />
+                <img src="/images/abt4.png" alt="grid-img-4" />
             </div>
         </div>
     </div>
